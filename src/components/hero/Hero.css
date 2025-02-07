@@ -1,0 +1,8 @@
+.bck-img{
+    background-image: url(../../assets/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    
+}

@@ -1,0 +1,13 @@
+.input{
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    width: 20%;
+    padding: 0px 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
