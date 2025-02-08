@@ -5,7 +5,7 @@ import user from "../../assets/user.png";
 import user2 from "../../assets/user2.png";
 import user3 from "../../assets/user3.png";
 import "./section.css";
-import { Cards } from "./cards";
+import { Cards } from "./Cards.jsx";
 export const Section = () => {
     return (
         <div className="container-fluid   d-flex justify-content-around">
