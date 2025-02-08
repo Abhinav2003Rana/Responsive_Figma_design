@@ -4,7 +4,7 @@ import card3 from "../../assets/card3.png";
 import user from "../../assets/user.png";
 import user2 from "../../assets/user2.png";
 import user3 from "../../assets/user3.png";
-import "./section.css";
+import "./Section.css";
 import { Cards } from "./Cards.jsx";
 export const Section = () => {
     return (
