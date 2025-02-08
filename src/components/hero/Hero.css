@@ -6,3 +6,23 @@
     height: 440px;
     
 }
+
+/* mediaqueries */
+
+@media only screen and (max-width: 425px){
+    .bck-img{
+        background-image: url(../../assets/hero.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90vw;
+        max-height: 160px;
+        
+    }
+    .heroh1{
+        font-size: 16px;
+    }
+    .herop{
+        font-size: 10px;
+    }
+}

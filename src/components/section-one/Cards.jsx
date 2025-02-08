@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import "./Section.css"
 export const Cards = (props) => {
     return (
         <div className="card my-5 mb-4 border-0 shadow-sm">

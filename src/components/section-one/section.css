@@ -1,0 +1,45 @@
+/* media queries */
+@media only screen and (max-width: 1024px){
+    li a{
+        font-size: 12px
+    }
+    .btn{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 880px){
+    li a{
+        font-size: 6px
+    }
+    .btn{
+        font-size: 8px;
+    }
+    .cd h6{
+        font-size: 12px;
+    }
+    .cd p{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .left-sec{
+        margin: 0;
+        width: 45%;
+    }
+    .right-sec{
+        margin: 0;
+        width: 45%;
+    }
+    li a{
+        font-size: 6px
+    }
+    .btn{
+        font-size: 6px;
+    }
+    .cd h6{
+        font-size: 8px;
+    }
+    .cd p{
+        font-size: 6px;
+    }
+}

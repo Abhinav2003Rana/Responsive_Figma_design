@@ -1,13 +1,93 @@
-.input{
+.nav-input{
     border: none;
     background: transparent;
     border-radius: 30px;
     width: 20%;
     padding: 0px 10px;
 }
+.c-ard{
+    max-width: 900px;
+    z-index: 999;
+}
 a{
     text-decoration: none;
 }
 a:hover{
     cursor: pointer;
+}   
+
+/* media queries */
+
+@media only screen and (max-width: 1024px){
+    /* navbar */
+    .logo{
+        width: 150px;
+    }
+    .nav-input{
+        font-size: 12px;
+    }
+    .rgt-txt{
+        font-size: 12px;
+    }
+    /* create/login */
+    .c-ard{
+        width: 500px;
+        height: 70vh;
+    }
+    .cross{
+        font-size: 10px;
+    }
+    .crdtxt{
+        font-size: 12px;
+    }
+    .cardhead{
+        font-size: 16px;
+    }
+    .cardpara{
+        font-size: 10px;
+    }
+    .right-card-img{
+        width: 200px;
+    }
+    .downbts{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 425px){
+    /* navbar */
+    .logo{
+        width: 100px;
+    }
+    .nav-input{
+        display: none;
+    }
+    .rgt-txt{
+        font-size: 12px;
+    }
+    /* create/login */
+    .c-ard{
+        max-width: 400px;
+        height: 10vh;
+    }
+    .cross{
+        font-size: 8px;
+    }
+    .crdtxt{
+        font-size: 8px;
+    }
+    .cardhead{
+        font-size: 10px;
+    }
+    .cardpara{
+        font-size: 8px;
+    }
+    .right-card-img{
+        width: 150px;
+    }
+    .downbts{
+        font-size: 8px;
+    }
+    .forminp{
+        font-size: 10px;
+    }
 }
